@@ -1,41 +1,17 @@
-# Full Stack Development
+# Rest Fundamentals
 
-### Spring Integration
+- Common Questions:
+    - Should I use a path segment or the query string?
+    - Do I put the user id in the URL? Where?
+    - How do I version my API?
+    - How do I choose a content-type?
+    - How should I do content-negotiation?
+    - Should I use this header?
 
-- Integrate many different kings of systems without writing plumbing code.  
-- Seperate integration code from business logic.
-- Use Enterprise Integration Patterns in your Spring-Based applications.
+- Origins of Rest
 
-#### Setting the scene
-
-- Enterprise Integration Patterns.
-- Asynchronous messaging.
-- Spring integration.
-
-#### Design Patterns
-
-- Common reusable solutions.
-- Enterprise Integration Patterns: Designing, building, and deploying messaging solutions.
-
-#### Understanding [EIP](https://www.enterpriseintegrationpatterns.com)
-
-- Synchronous vs Asynchronous, ![Screenshot](images/AVSS.PNG)
-
-#### Asynchronous Advantages
-
-- More responsive system because sender does not have to wait.
-- Message buffering makes the system resilient to failure.
-- Receiver processes messages at its own rate.
-
-#### EIP Patterns
-
-- Asynchronous messaging.
-    - Message
-        - It consist of headers and payload.
-        - Headers: Metadata.
-        - Payload: Application specific content, ![Screenshot](images/MESSAGE.PNG)
-        
-    - Message Channel
-        - It sends and receives data as bytecodes or seriali
+   - Roy Fielding coined the term REST as part of a doctoral dissertation.
+   - Fielding's work was a description of an existing architecture.
+   - 
 
 
