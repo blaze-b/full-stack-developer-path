@@ -2,20 +2,20 @@
 
 ### Spring Integration
 
-- Integrate many different kings of systems without writing plumbing code
-- Seperate integration code from business logic
-- Use Enterprise Integration Patterms in your Spring-Based applications
+- Integrate many different kings of systems without writing plumbing code.  
+- Seperate integration code from business logic.
+- Use Enterprise Integration Patterns in your Spring-Based applications.
 
 #### Setting the scene
 
-- Enterprise Integration Patterns
-- Asynchronous messaging
-- Spring integration
+- Enterprise Integration Patterns.
+- Asynchronous messaging.
+- Spring integration.
 
 #### Design Patterns
 
-- Common reusable solutions
-- Enterprise Integration Patterns: Designing, building, and deploying messaging solutions
+- Common reusable solutions.
+- Enterprise Integration Patterns: Designing, building, and deploying messaging solutions.
 
 #### Understanding [EIP](https://www.enterpriseintegrationpatterns.com)
 
@@ -29,9 +29,13 @@
 
 #### EIP Patterns
 
-- Asynchronous messaging
-- Message: It consist of headers and payload
-- Headers: Metadata
-- Payload: Application specific content, ![Screenshot](images/MESSAGE.PNG)
+- Asynchronous messaging.
+    - Message
+        - It consist of headers and payload.
+        - Headers: Metadata.
+        - Payload: Application specific content, ![Screenshot](images/MESSAGE.PNG)
+        
+    - Message Channel
+        - It sends and receives data as bytecodes or seriali
 
 
